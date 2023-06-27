@@ -8,12 +8,6 @@ project(
     'cpp_std=c++17',
   ])
 
-install_data(
-    'netipmid',
-    install_mode: 'r-xr-xr-x',
-    install_dir: get_option('bindir')
-)
-
 systemd_dep = dependency('systemd')
 systemd_system_unit_dir = systemd_dep.get_variable(pkgconfig : 'systemdsystemunitdir')
 
