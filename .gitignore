@@ -18,7 +18,6 @@ stamp-h1
 *.la
 .dirstamp
 .project
-netipmid
 test-driver
 .*.sw*
 .cscope/
